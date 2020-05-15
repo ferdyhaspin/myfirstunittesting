@@ -1,5 +1,7 @@
 package com.ferdyhaspin.myfirstunittesting
 
+import com.ferdyhaspin.myfirstunittesting.testing.CuboidModel
+import com.ferdyhaspin.myfirstunittesting.testing.MainViewModel
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
@@ -25,13 +27,15 @@ class MainViewModelTest {
     @Before
     fun before() {
         cuboidModel = mock(CuboidModel::class.java)
-        mainViewModel = MainViewModel(cuboidModel)
+        mainViewModel =
+            MainViewModel(cuboidModel)
     }
 
     @Test
     fun testVolume() {
         cuboidModel = CuboidModel()
-        mainViewModel = MainViewModel(cuboidModel)
+        mainViewModel =
+            MainViewModel(cuboidModel)
         mainViewModel.save(dummyWidth, dummyLength, dummyHeight)
         val volume = mainViewModel.getVolume()
         assertEquals(dummyVolume, volume, 0.0001)
@@ -40,7 +44,8 @@ class MainViewModelTest {
     @Test
     fun testCircumference() {
         cuboidModel = CuboidModel()
-        mainViewModel = MainViewModel(cuboidModel)
+        mainViewModel =
+            MainViewModel(cuboidModel)
         mainViewModel.save(dummyWidth, dummyLength, dummyHeight)
         val volume = mainViewModel.getCircumference()
         assertEquals(dummyCircumference, volume, 0.0001)
@@ -48,7 +53,8 @@ class MainViewModelTest {
     @Test
     fun tesSurfaceArea() {
         cuboidModel = CuboidModel()
-        mainViewModel = MainViewModel(cuboidModel)
+        mainViewModel =
+            MainViewModel(cuboidModel)
         mainViewModel.save(dummyWidth, dummyLength, dummyHeight)
         val volume = mainViewModel.getSurfaceArea()
         assertEquals(dummySurfaceArea, volume, 0.0001)

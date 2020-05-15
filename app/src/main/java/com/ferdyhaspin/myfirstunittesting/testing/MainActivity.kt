@@ -1,4 +1,4 @@
-package com.ferdyhaspin.myfirstunittesting
+package com.ferdyhaspin.myfirstunittesting.testing
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import com.ferdyhaspin.myfirstunittesting.R
 
 class MainActivity : AppCompatActivity(), View.OnClickListener  {
 
@@ -24,7 +25,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener  {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        mainViewModel = MainViewModel(CuboidModel())
+        mainViewModel =
+            MainViewModel(CuboidModel())
         edtWidth = findViewById(R.id.edt_width)
         edtHeight = findViewById(R.id.edt_height)
         edtLength = findViewById(R.id.edt_length)

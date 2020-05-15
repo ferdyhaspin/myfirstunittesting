@@ -1,4 +1,4 @@
-package com.ferdyhaspin.myfirstunittesting
+package com.ferdyhaspin.myfirstunittesting.testing
 
 /**
  * Created by ferdyhaspin  on 10/05/20.

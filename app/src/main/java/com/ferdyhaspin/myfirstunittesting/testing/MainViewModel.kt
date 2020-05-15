@@ -1,4 +1,6 @@
-package com.ferdyhaspin.myfirstunittesting
+package com.ferdyhaspin.myfirstunittesting.testing
+
+import com.ferdyhaspin.myfirstunittesting.testing.CuboidModel
 
 /**
  * Created by ferdyhaspin  on 10/05/20.
