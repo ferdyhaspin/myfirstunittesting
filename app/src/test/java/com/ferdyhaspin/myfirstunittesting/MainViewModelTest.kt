@@ -1,13 +1,13 @@
 package com.ferdyhaspin.myfirstunittesting
 
-import junit.framework.Assert.assertEquals
+import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
 import org.mockito.Mockito.*
 
 /**
- * Created by ferdyhaspin & ilhamelmujib on 10/05/20.
- * Copyright (c) 2020 Bank Syariah Mandiri - Super Apps All rights reserved.
+ * Created by ferdyhaspin  on 10/05/20.
+ * Copyright (c) 2020 My Fisrt Unit Testing All rights reserved.
  */
 class MainViewModelTest {
 

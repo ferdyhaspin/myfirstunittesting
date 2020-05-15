@@ -1,8 +1,8 @@
 package com.ferdyhaspin.myfirstunittesting
 
 /**
- * Created by ferdyhaspin & ilhamelmujib on 10/05/20.
- * Copyright (c) 2020 Bank Syariah Mandiri - Super Apps All rights reserved.
+ * Created by ferdyhaspin  on 10/05/20.
+ * Copyright (c) 2020 My Fisrt Unit Testing All rights reserved.
  */
 class CuboidModel {
     private var width: Double = 0.0
